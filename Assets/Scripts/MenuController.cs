@@ -11,4 +11,8 @@ public class MenuController : MonoBehaviour
         //Add SceneManager helper
         SceneManager.LoadScene("Tetris");
     }
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
